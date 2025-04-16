@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-// loadEnv sets environment variables based on content input
+// LoadEnv sets environment variables based on content input.
 func LoadEnv(filename string) error {
 
 	var inputString []string
