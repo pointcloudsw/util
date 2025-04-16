@@ -28,5 +28,7 @@ func loadEnv(filename string) error {
 
 	} else {
 		log.Fatal("Unable to access input file: ", filename)
+
 	}
+	return nil
 }
